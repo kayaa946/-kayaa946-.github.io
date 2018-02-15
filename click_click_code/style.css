@@ -10,6 +10,7 @@ body {
 	overflow-x:hidden;
 
 	width:100vw;
+	height: 100vh;
 }
 
 
@@ -19,7 +20,11 @@ filter:drop-shadow(8px 8px 10px gray) hue-rotate(-70deg);
 }
 
 .maintext
-{width:1600px;}
+{
+/*	width:1600px;*/
+width: 150%;
+height: auto;
+}
 
 .maintext2
 {width:1700px;}
@@ -70,12 +75,29 @@ left:650px;
 {position:absolute;
 top:300px;
 left:1px;
+margin-left:-70px;
+}
+
+.background-image {
+	height: 100vh;
+	width: 100vw;
+	z-index: 100;
+	display: none;
+}
+
+/*#perhaps:hover ~ .background-image {
+	display: block;
+/*	background-color: blue;
+*/	background-image: url("pngs/perhaps.png");
+	background-repeat: repeat;
+	/*cursor: progress; */
+
 }
 
  #first {
 position:absolute;
-top:400px;
-left:1000px;
+top:300px;
+left:100px;
 
  }
 
@@ -84,6 +106,14 @@ left:1000px;
 {position:absolute;
 top:700px;
 left:1px;
+}
+
+#but:hover ~ .background-image {
+	display: block;
+/*	background-color: blue;
+*/	background-image: url("pngs/but.png");
+	background-repeat: repeat;
+	/*cursor: progress; */
 }
 
 #second
@@ -98,6 +128,7 @@ left:200px;
 {position:absolute;
 top:1000px;
 left:10px;
+margin-left:-112px;
 }
 
 #third
@@ -128,6 +159,7 @@ left:1200px;
 {position:absolute;
 top:1400px;
 left:0px;
+margin-left:-110px;
 }
 
 #fifth
