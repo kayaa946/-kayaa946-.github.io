@@ -1,0 +1,52 @@
+*{box-sizing: border-box;}
+
+body {
+	margin: 0;
+	
+	padding: 0;
+
+	background-color: #EBB2B2;
+}
+a:hover{
+-webkit-filter:drop-shadow(8px 8px 10px gray) hue-rotate(-70deg);
+filter:drop-shadow(8px 8px 10px gray) hue-rotate(-70deg);
+}
+
+#logo {
+
+position:absolute;
+top:10px;
+left:340px;
+}
+
+#buttext {
+
+position:absolute;
+top:150px;
+left:250px;
+width:1000px;
+}
+
+
+
+#may{
+
+position:absolute;
+top:700px;
+left:670px;
+}
+
+#november{
+
+position:absolute;
+top:700px;
+left:20px;
+}
+
+
+#footer1 {
+
+position:absolute;
+top:2400px;
+left:230px;
+}

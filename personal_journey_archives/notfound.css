@@ -1,0 +1,22 @@
+*{box-sizing: border-box;}
+
+body {
+	margin: 0;
+	
+	padding: 0;
+
+	background-color:#8900FF;
+}
+
+.text
+{
+
+	position:absolute;
+	top:400px;
+	left:200px;
+	font-family: 'VT323', monospace;
+	font-family: 'Rock Salt', cursive;
+	font-size:20px;
+	background-color:#8900FF;
+	z-index:2
+}
