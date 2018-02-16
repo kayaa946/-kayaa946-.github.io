@@ -73,7 +73,7 @@ left:650px;
 #perhaps
 
 {position:absolute;
-top:300px;
+top:250px;
 left:1px;
 margin-left:-70px;
 }
@@ -85,7 +85,7 @@ margin-left:-70px;
 	display: none;
 }
 
-/*#perhaps:hover ~ .background-image {
+#perhaps:hover ~ .background-image {
 	display: block;
 /*	background-color: blue;
 */	background-image: url("pngs/perhaps.png");
@@ -94,10 +94,10 @@ margin-left:-70px;
 
 }
 
- #first {
-position:absolute;
-top:300px;
-left:100px;
+ .first {
+	position:absolute;
+	top:450px;
+	left:900px;
 
  }
 
@@ -127,8 +127,17 @@ left:200px;
 
 {position:absolute;
 top:1000px;
-left:10px;
-margin-left:-112px;
+left:0px;
+;
+}
+
+
+#always:hover ~ .background-image {
+	display: block;
+/*	background-color: blue;
+*/	background-image: url("pngs/always.png");
+	background-repeat: repeat;
+	/*cursor: progress; */
 }
 
 #third
@@ -147,6 +156,14 @@ top:1200px;
 left:0px;
 }
 
+#such:hover ~ .background-image {
+	display: block;
+/*	background-color: blue;
+*/	background-image: url("pngs/such.png");
+	background-repeat: repeat;
+	/*cursor: progress; */
+}
+
 #fourth
 
 {position:absolute;
@@ -159,21 +176,37 @@ left:1200px;
 {position:absolute;
 top:1400px;
 left:0px;
-margin-left:-110px;
+
+}
+
+#how:hover ~ .background-image {
+	display: block;
+/*	background-color: blue;
+*/	background-image: url("pngs/how.png");
+	background-repeat: repeat;
+	/*cursor: progress; */
 }
 
 #fifth
 
 {position:absolute;
-top:1605px;
-left:670px;
+top:175px;
+left:300px;
 }
 
 #im
 
 {position:absolute;
 top:1600px;
-left:600px;
+left:500px;
+}
+
+#im:hover ~ .background-image {
+	display: block;
+/*	background-color: blue;
+*/	background-image: url("pngs/im.png");
+	background-repeat: repeat;
+	/*cursor: progress; */
 }
 
 
@@ -182,6 +215,14 @@ left:600px;
 {position:absolute;
 top:1800px;
 left:0px;
+}
+
+#neither:hover ~ .background-image {
+	display: block;
+/*	background-color: blue;
+*/	background-image: url("pngs/neither.png");
+	background-repeat: repeat;
+	/*cursor: progress; */
 }
 
 
