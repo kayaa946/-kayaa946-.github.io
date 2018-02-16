@@ -27,24 +27,26 @@ left:310px;
 }
 
 
-#august {
+.august {
 
-position:absolute;
-top:1400px;
-left:1300px;
+position:fixed;
+top:700px;
+left:1350px;
+z-index: 5
 }
 
 #july{
 
-position:absolute;
+position:fixed;
 top:700px;
 left:20px;
+z-index: 3
 }
 
 
-#footer1 {
+#footer5 {
 
 position:absolute;
-top:2000px;
+top:1700px;
 left:230px;
 }

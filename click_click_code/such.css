@@ -30,22 +30,24 @@ left:400px;
 
 #august {
 
-position:absolute;
+position:fixed;
 top:700px;
-left:670px;
+left:1350px;
+z-index: 3
 }
 
 #july{
 
-position:absolute;
+position:fixed;
 top:700px;
-left:20px;
+left:30px;
+z-index: 3
 }
 
 
-#footer1 {
+#footer6 {
 
 position:absolute;
 top:2400px;
-left:230px;
+left:300px;
 }
