@@ -1,0 +1,88 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+.table {
+    position: absolute;
+    top: 60%;
+    left: 14%;
+    width: 70%;
+    height: 25%;
+    background: #ABC5D5;
+    z-index: 20
+
+}
+
+.table-2{    
+    position: absolute;
+    top: 36%;
+    left: 14%;
+    width: 70%;
+    height: 25%;
+    background: #BEDBED;
+    z-index:10
+}
+
+.table-3{
+    position: absolute;
+    top: 61%;
+    left: 80.5%;
+    width: 0;
+    height: 0;
+    border-bottom: 16vw solid #A9B7C0;
+    border-left: 6vw solid transparent;
+    transform: skew(20deg);
+    z-index: 30
+}
+
+.table-4 {
+    position: absolute;
+    top: 62%;
+    left: 81.5%;
+    width: 0;
+    height: 0;
+    border-bottom: 16vw solid #abc5d5;
+    border-left: 6vw solid transparent;
+    transform: skew(26deg);
+    z-index: 40
+}
+
+.table-5 {
+    position: absolute;
+    top: 31%;
+    left: 83%;
+    width: 0;
+    height: 0;
+    border-bottom: 18vw solid #A9B7C0;
+    border-right: 5vw solid transparent;
+    transform: skew(2deg);
+    z-index:1;
+}
+
+.table-6{
+    position: absolute;
+    top: 31%;
+    left: 15%;
+    width: 69%;
+    height: 5%;
+    background: white;
+    z-index: 3
+}
