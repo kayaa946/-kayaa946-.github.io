@@ -4,9 +4,10 @@ body{
 
 
 .circle{
-	position:relative;
+	position:absolute;
 	top:50%;
-	margin:0 auto;
+	left:50%;
+	transform:translate(-50%,-50%);
 	width: 55vw;
     height: 55vw;
     border-radius: 55vw;
@@ -14,7 +15,7 @@ body{
 }
 
 .yaren{
-	position: relative;
+	position: absolute;
     top: 80%;
     left: 48%;
     /* margin: 0 auto; */
@@ -134,6 +135,19 @@ body{
 
 }
 
+
+.yangchen{
+	position: relative;
+    top: 70%;
+    left: 75.6%;
+    /* margin: 0 auto; */
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    background-color: #F68E5F;
+    z-index: 5;
+
+}
 .image1{
 	position:absolute;
 	top:45%;
