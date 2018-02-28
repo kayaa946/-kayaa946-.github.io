@@ -1,3 +1,8 @@
+body{
+	background:#6D72C3;
+}
+
+
 .circle{
 	position:relative;
 	top:50%;
@@ -5,28 +10,127 @@
 	width: 55vw;
     height: 55vw;
     border-radius: 55vw;
-    background-color: red;
+    background-color: #F76C5E;
 }
 
-.person1{
-	position:relative;
-	top:50%;
-	margin:0 auto;
-	width: 5vw;
+.yaren{
+	position: relative;
+    top: 80%;
+    left: 48%;
+    /* margin: 0 auto; */
+    width: 5vw;
     height: 5vw;
     border-radius: 5vw;
-    background-color: green;
+    background-color: #F68E5F;
+    z-index: 5;
 
 }
 
-.person2{
-	position:relative;
-	top:40%;
-	margin:0 auto;
-	width: 5vw;
+.vincent{
+	position: absolute;
+    top: 33%;
+    left: 18.8%;
+    /* margin: 0 auto; */
+    width: 5vw;
     height: 5vw;
     border-radius: 5vw;
-    background-color: blue;
+    background-color: #F68E5F;
+    z-index: 5;
+
+}
+
+.evelin{
+	
+	position: absolute;
+    top: 84%;
+    left: 22.3%;
+    /* margin: 0 auto; */
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    background-color: #F68E5F;
+    z-index: 5;
+
+}
+
+.emily{
+	
+	position: absolute;
+    top: 105%;
+    left: 34%;
+    /* margin: 0 auto; */
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    background-color: #F68E5F;
+    z-index: 5;
+
+}
+
+
+.shuting{
+	
+	position: absolute;
+    top: 60%;
+    left: 17.8%;
+    /* margin: 0 auto; */
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    background-color: #F68E5F;
+    z-index: 5;
+
+}
+
+.jahyun{
+	position: absolute;
+    top: 9%;
+    left: 26%;
+    /* margin: 0 auto; */
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    background-color: #F68E5F;
+    z-index: 5;
+
+}
+
+.esra{
+	position: absolute;
+    top: 9%;
+    left: 69%;
+    /* margin: 0 auto; */
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    background-color: #F68E5F;
+    z-index: 5;
+
+}
+
+.vinny{
+	position: absolute;
+    top: 30%;
+    left: 74.6%;
+    /* margin: 0 auto; */
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    background-color: #F68E5F;
+    z-index: 5;
+
+}
+
+.emil{
+	position: absolute;
+    top: 60%;
+    left: 75.6%;
+    /* margin: 0 auto; */
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    background-color: #F68E5F;
+    z-index: 5;
 
 }
 
@@ -51,9 +155,107 @@
 
 }
 
-.person1:hover + img{
+.image3{
+	position:absolute;
+	top:45%;
+	transform:translateY(-45%);
+	left:40vw;
+	width: 20vw;
+    z-index:3;
+    opacity:0;
+
+}
+
+.image4{
+	position:absolute;
+	top:45%;
+	transform:translateY(-45%);
+	left:40vw;
+	width: 20vw;
+    z-index:3;
+    opacity:0;
+
+}
+
+.image5{
+	position:absolute;
+	top:45%;
+	transform:translateY(-45%);
+	left:40vw;
+	width: 20vw;
+    z-index:3;
+    opacity:0;
+
+}
+
+.image6{
+	position:absolute;
+	top:45%;
+	transform:translateY(-45%);
+	left:40vw;
+	width: 20vw;
+    z-index:3;
+    opacity:0;
+
+}
+
+.image7{
+	position:absolute;
+	top:45%;
+	transform:translateY(-45%);
+	left:40vw;
+	width: 20vw;
+    z-index:3;
+    opacity:0;
+
+}
+
+.image8{
+	position:absolute;
+	top:45%;
+	transform:translateY(-45%);
+	left:40vw;
+	width: 20vw;
+    z-index:3;
+    opacity:0;
+
+}
+
+.image9{
+	position:absolute;
+	top:45%;
+	transform:translateY(-45%);
+	left:40vw;
+	width: 20vw;
+    z-index:3;
+    opacity:0;
+
+}
+
+.yaren:hover + img{
 	opacity:1;
 }
-.person2:hover + img{
+.vincent:hover + img{
+	opacity:1;
+}
+.evelin:hover + img{
+	opacity:1;
+}
+.shuting:hover + img{
+	opacity:1;
+}
+.emily:hover + img{
+	opacity:1;
+}
+.jahyun:hover + img{
+	opacity:1;
+}
+.esra:hover + img{
+	opacity:1;
+}
+.vinny:hover + img{
+	opacity:1;
+}
+.emil:hover + img{
 	opacity:1;
 }
