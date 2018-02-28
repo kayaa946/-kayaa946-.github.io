@@ -16,8 +16,8 @@ body{
 
 .yaren{
 	position: absolute;
-    top: 80%;
-    left: 48%;
+    top: 100.9%;
+    left: 47%;
     /* margin: 0 auto; */
     width: 5vw;
     height: 5vw;
@@ -44,7 +44,7 @@ body{
 	
 	position: absolute;
     top: 84%;
-    left: 22.3%;
+    left: 25.8%;
     /* margin: 0 auto; */
     width: 5vw;
     height: 5vw;
@@ -111,8 +111,8 @@ body{
 
 .vinny{
 	position: absolute;
-    top: 30%;
-    left: 74.6%;
+    top: 10%;
+    left: 70.6%;
     /* margin: 0 auto; */
     width: 5vw;
     height: 5vw;
@@ -124,8 +124,8 @@ body{
 
 .emil{
 	position: absolute;
-    top: 60%;
-    left: 75.6%;
+    top: 35%;
+    left: 76.4%;
     /* margin: 0 auto; */
     width: 5vw;
     height: 5vw;
@@ -137,9 +137,21 @@ body{
 
 
 .yangchen{
-	position: relative;
-    top: 70%;
-    left: 75.6%;
+	position: absolute;
+    top: 65%;
+    left: 75.9%;
+    /* margin: 0 auto; */
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    background-color: #F68E5F;
+    z-index: 5;
+}
+
+.khe{
+	position: absolute;
+    top: 90%;
+    left: 65.8%;
     /* margin: 0 auto; */
     width: 5vw;
     height: 5vw;
@@ -148,6 +160,7 @@ body{
     z-index: 5;
 
 }
+
 .image1{
 	position:absolute;
 	top:45%;
@@ -246,6 +259,30 @@ body{
 
 }
 
+.image10{
+	position:absolute;
+	top:45%;
+	transform:translateY(-45%);
+	left:40vw;
+	width: 20vw;
+    z-index:3;
+    opacity:0;
+
+}
+
+.image11{
+	position:absolute;
+	top:45%;
+	transform:translateY(-45%);
+	left:40vw;
+	width: 20vw;
+    z-index:3;
+    opacity:0;
+
+}
+
+
+
 .yaren:hover + img{
 	opacity:1;
 }
@@ -271,5 +308,11 @@ body{
 	opacity:1;
 }
 .emil:hover + img{
+	opacity:1;
+}
+.yangchen:hover + img{
+	opacity:1;
+}
+.khe:hover + img{
 	opacity:1;
 }
