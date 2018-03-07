@@ -1,0 +1,57 @@
+/* Your styles go here */
+body{
+	background-color: #D83A00;
+	padding:6.3%;
+	margin:auto 0;
+}
+
+.box1{
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    background: rgb(249,176,25);
+}
+
+.box2{
+	top: 42%;
+    position: absolute;
+    width: 90%;
+    height: 15%;
+    background: rgb(213,191,186);
+}
+
+
+.box3{
+	top: 57%;
+	position: absolute;
+	width: 90%;
+	height:35%;
+	background-color:black;
+}
+
+
+
+@media(max-width:768px){
+
+	
+    body{
+background-color:#261855 
+    }
+
+
+	.box1{
+background-color:#320617
+
+	}
+
+		.box2{
+background-color:#3030B0
+
+	}
+
+	.box3{
+background-color:#31264E
+
+	}
+
+}

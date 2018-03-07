@@ -1,0 +1,40 @@
+/* Your styles go here */
+.wrapper{
+	margin:0 auto;
+	margin-top:38.5vh;
+	position:relative;
+	height:23vh;
+	width:33.5vw;
+	display:flex;
+	background-color:#00B6D3;
+}
+
+.square{
+	position:absolute;
+	background-color: #473BBF;
+	height:7.75vh;
+	width:14%;
+	z-index:2;
+}
+
+.top1{
+	top:0;
+	left:0;
+}
+
+.top2{
+	top:0;
+	right:0;
+}
+
+
+.bottom1{
+
+	bottom:0;
+	left:0;
+}
+
+.bottom2{
+	bottom:0;
+	right:0;
+}

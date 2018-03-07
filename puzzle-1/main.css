@@ -1,0 +1,20 @@
+/* Your styles go here */
+body{ background-color:white
+
+}
+
+
+
+
+
+.box{
+background-color:#CDD8DE;
+display:inline-block;
+font-family: sans-serif;
+font-size: 20px;
+padding-top:20px;
+padding-bottom:20px;
+padding-right:20px;
+padding-left:20px;
+
+}
