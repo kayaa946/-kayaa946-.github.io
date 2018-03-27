@@ -1,0 +1,148 @@
+body{
+	max-width:100%;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    margin-bottom:10vh;
+}
+
+.title{
+	position:absolute;
+	top:-3vw;
+	left:7vw;
+	font-family: Helvetica, sans-serif;
+	font-size:60pt;
+	font-weight:bold;
+	
+}
+
+
+
+
+
+.mega_plumber{
+  position:absolute; 
+  top:3vw;
+  left:3vw;
+  z-index:2;
+}
+
+.mega_plumber_text{
+	position:absolute;
+	top:33vw;
+	left:7vw;
+	font-family: Helvetica, sans-serif;
+	font-size:20pt;
+	font-weight:bold;
+
+}
+
+.microwave_baby{
+      position: absolute;
+    top: 11vw;
+    left: 24vw;
+    height: 3vw;
+    width: 3vw;
+    z-index: 2;
+}
+
+
+.microwave_baby_text{
+	position:absolute;
+	top:33vw;
+	left:30vw;
+	font-family: Helvetica, sans-serif;
+	font-size:20pt;
+	font-weight:bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.plush{
+	position:absolute;
+	top:2vw;
+	left:83.7vw;
+	transform:rotate(-22deg);
+	font-family: Helvetica, sans-serif;
+	font-size:18pt;
+	font-weight:bold;
+	
+
+}
+
+.boxgames{
+	position:absolute;
+	top:3.7vw;
+	left:85vw;
+	transform:rotate(-22deg);
+	font-family: Helvetica, sans-serif;
+	font-size:18pt;
+	font-weight:bold;
+	color:black;
+}
+
+.dolls{
+	position:absolute;
+	top:7.5vw;
+	left:86.2vw;
+	transform:rotate(-22deg);
+	font-family: Helvetica, sans-serif;
+	font-size:18pt;
+	font-weight:bold;
+	color:black;
+}
+
+.other{
+	position:absolute;
+	top:9.5vw;
+	left:87vw;
+	transform:rotate(-22deg);
+	font-family: Helvetica, sans-serif;
+	font-size:18pt;
+	font-weight:bold;
+	color:black;
+}
+
+.plush:hover {
+	animation: shake 0.5s infinite;
+}
+.boxgames:hover {
+	animation: shake 0.5s infinite;
+}
+.dolls:hover {
+	animation: shake 0.5s infinite;
+}
+.other:hover {
+	animation: shake 0.5s infinite;
+}
+
+
+@keyframes shake{
+    0% { transform:rotate(0deg); }
+    50% { transform:rotate(5deg); }
+	100%{ transform:rotate(-5deg); }
+}
