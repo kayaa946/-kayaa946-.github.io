@@ -1,0 +1,43 @@
+body{
+height: 100vh;
+cursor:url('cursor.png') 2 2 ,pointer  !important;
+z-index:100;
+
+}
+
+.gineapig{
+	position:absolute;
+	top:0.5vw;
+	left:2vw;
+	height:1vw;
+	width:1vw;
+	z-index:2;
+	
+}
+.clappytoy{
+	position:absolute;
+	top:15vw;
+	left:2vw;
+	height:16vw;
+	width:16vw;
+	z-index:3;
+	
+}
+img {
+    max-width: 100%;
+}
+
+a {
+    cursor: url(cursor.png) 2 2 ,pointer !important;
+}
+
+img:hover {
+	animation: shake 0.2s infinite;
+	cursor: url(cursor.png) 2 2 ,pointer;
+}
+
+@keyframes shake{
+    0% { transform:rotate(0deg); }
+    50% { transform:rotate(5deg); }
+	100%{ transform:rotate(-5deg); }
+}

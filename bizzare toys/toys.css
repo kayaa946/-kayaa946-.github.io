@@ -1,31 +1,339 @@
-body{
+html, body {
+	cursor: url('cursor.png');
+}
+
+body {
+max-width:100%;
 height: 100vh;
-cursor:url('cursor.png') 2 2 ,pointer;
+cursor: url('cursor.png');
 z-index:100;
+max-width:100%;
+overflow: hidden;
+}
+
+img 
+{
+	filter: drop-shadow(10px 2px 4px #6d6d6d) 
+}
+
+a{
+	color:inherit;
+	text-decoration:none; 
+	cursor:inherit;
+}
+
+
+a:hover{
+cursor: url('cursor.png');
+}
+
+
+span{
+	position:absolute;
+    z-index:200;
+}
+
+
+.action-figures{
+    display: flex;
+    top: 30vw;
+    /* margin-left: 7vw; */
+    left: 20vw;
+    font-family: Helvetica, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    z-index: 200;
+    transform: rotate(-50deg);
 
 }
 
+.other{
+    display: flex;
+    top: 5vw;
+    left: 56vw;
+    font-family: Helvetica, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    z-index: 200;
+    transform: rotate(-50deg);
+
+}
+
+.dolls{
+       display: flex;
+    top: 25vw;
+    left: 58vw;
+    font-family: Helvetica, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    z-index: 200;
+    transform: rotate(-50deg);
+
+}
+
+.dolls{
+       display: flex;
+    top: 25vw;
+    left: 58vw;
+    font-family: Helvetica, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    z-index: 200;
+    transform: rotate(-50deg);
+
+}
+
+.plush{
+    display: flex;
+    top: 40vw;
+    left: 72vw;
+    font-family: Helvetica, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    z-index: 200;
+    transform: rotate(-50deg);
+}
+
+
+
 .gineapig{
-	position:absolute;
-	top:0.5vw;
-	left:2vw;
-	height:1vw;
-	width:1vw;
-	z-index:2;
+	    position: absolute;
+    top: 0.5vw;
+    left: 2vw;
+    height: 30vw;
+    width: 17vw;
+    z-index: 2;
 	
 }
 .clappytoy{
-	position:absolute;
-	top:15vw;
-	left:2vw;
-	height:16vw;
-	width:16vw;
-	z-index:3;
+	    position: absolute;
+    top: 6vw;
+    left: 0.4vw;
+    width: 16vw;
+    z-index: 3;
 	
+}
+.megaplumber{
+	position: absolute;
+    top: 0vw;
+    left: 17vw;
+    width: 21vw;
+    z-index: 3;
+	
+}
+
+.birthingdoll{
+	position: absolute;
+    top: 17vw;
+    left: 1vw;
+    width: 24vw;
+    z-index: 3;
+	
+}
+.strecharmstrong{
+	position: absolute;
+    top: 18vw;
+    left: 17vw;
+    width: 23vw;
+    z-index: 3;
+	
+}
+
+.slashedsloth{
+    position: absolute;
+    top: 1vw;
+    left: 37vw;
+    width: 16.5vw;
+    z-index: 3;
+	
+}
+
+
+.zombieclown{
+	position: absolute;
+    top: 33.5vw;
+    left: 2.7vw;
+    width: 19vw;
+    z-index: 3;
+    transform: rotate(45deg);
+	
+}
+
+.avengingunicorn{
+    position: absolute;
+    top: 39vw;
+    left: 18vw;
+    width: 17vw;
+    z-index: 3;
+    transform: rotate(29deg);
+    
+	
+}
+
+.usbdoll{
+    position: absolute;
+    top: 29vw;
+    left: 32vw;
+    width: 13.5vw;
+    z-index: 3;
+    
+	
+}
+
+.smorkin{
+    position: absolute;
+    top: 15vw;
+    left: 41vw;
+    width: 16vw;
+    z-index: 3;
+    
+	
+}
+
+.clackers{
+     position: absolute;
+    top: -3vw;
+    left: 51.5vw;
+    width: 19vw;
+    z-index: 3;
+    
+	
+}
+
+.evilteddy{
+       position: absolute;
+    top: 38.30vw;
+    left: 38.5vw;
+    width: 14vw;
+    z-index: 3;
+    transform: rotate(46deg);
+    
+	
+}
+
+.shockingroulette{
+    position: absolute;
+    top: 26.8vw;
+    left: 50vw;
+    width: 15.7vw;
+    z-index: 3;
+    transform: rotate(46deg);
+    
+	
+}
+
+.trolldoll{
+      position: absolute;
+    top: 8.5vw;
+    left: 63vw;
+    width: 15vw;
+    z-index: 3;
+    transform: rotate(46deg);
+    
+	
+}
+
+.eyedoll{
+    position: absolute;
+    top: -2vw;
+    left: 78vw;
+    width: 13.5vw;
+    z-index: 3;
+    transform: rotate(46deg);}
+
+.preggobarbie{
+    position: absolute;
+    top: 9vw;
+    left: 84vw;
+    width: 16vw;
+    z-index: 3;
+    transform: rotate(44deg);
+    
+	
+}
+
+.preggobarbie{
+    position: absolute;
+    top: 9vw;
+    left: 84vw;
+    width: 16vw;
+    z-index: 3;
+    transform: rotate(44deg);
+    
+	
+}
+
+.redtoy{
+    position: absolute;
+    top: 20vw;
+    left: 65vw;
+    width: 22vw;
+    z-index: 3;
+    transform: rotate(44deg);
+    
+	
+}
+.roadkill{
+   position: absolute;
+    top: 41vw;
+    left: 57vw;
+    width: 9.5vw;
+    z-index: 3;
+    transform: rotate(54deg);
+    
+	
+}
+
+.toast1{
+     position: absolute;
+    top: 47vw;
+    left: 68vw;
+    width: 17vw;
+    z-index: 3;
+    
+	
+}
+
+.bratzbaby{
+    position: absolute;
+    top: 34vw;
+    left: 80vw;
+    width: 18vw;
+    z-index: 3;
+    transform: rotate(40deg);
+    
+	
+}
+
+.toast2{
+    position: absolute;
+    top: 25vw;
+    left: 89.5vw;
+    width: 13vw;
+    z-index: 3;
+    transform: rotate(80deg);
+    
+	
+}
+
+.piggy{
+        position: absolute;
+    top: 45vw;
+    left: 83.5vw;
+    width: 22vw;
+    z-index: 3;
+    transform: rotate(50deg);
+    
+	
+}
+
+img{
+	max-width:100%;
 }
 
 img:hover {
 	animation: shake 0.2s infinite;
+	cursor:url('cursor.png') 2 2 ,pointer !important;
 
 }
 
@@ -34,3 +342,10 @@ img:hover {
     50% { transform:rotate(5deg); }
 	100%{ transform:rotate(-5deg); }
 }
+
+
+/*.toys div {
+
+	position:relative;
+	float:left;
+}*/
