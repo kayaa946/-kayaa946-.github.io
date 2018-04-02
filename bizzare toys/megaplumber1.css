@@ -495,3 +495,340 @@ img
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
+	display: flex;
+    max-width:100%;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    margin-bottom:10vw;
+}
+
+
+
+.title{
+	position:absolute;
+	top:-3vw;
+	left:7vw;
+	font-family: Helvetica, sans-serif;
+	font-size:60pt;
+	font-weight:bold;
+	
+
+}
+
+.plush{
+	position:absolute;
+	top:2vw;
+	left:83.7vw;
+	transform:rotate(-22deg);
+	font-family: Helvetica, sans-serif;
+	font-size:18pt;
+	font-weight:bold;
+	
+
+}
+
+.boxgames{
+	position:absolute;
+	top:3.7vw;
+	left:85vw;
+	transform:rotate(-22deg);
+	font-family: Helvetica, sans-serif;
+	font-size:18pt;
+	font-weight:bold;
+	color:black;
+}
+
+.dolls{
+	position:absolute;
+	top:7.5vw;
+	left:86.2vw;
+	transform:rotate(-22deg);
+	font-family: Helvetica, sans-serif;
+	font-size:18pt;
+	font-weight:bold;
+	color:black;
+}
+
+.other{
+	position:absolute;
+	top:9.5vw;
+	left:87vw;
+	transform:rotate(-22deg);
+	font-family: Helvetica, sans-serif;
+	font-size:18pt;
+	font-weight:bold;
+	color:black;
+}
+
+.image{
+	position:absolute;
+	top:-15vw;
+	left:-67vw;
+	height:-40px;
+	width:-10px;
+	z-index:5;
+}
+
+.arrow1{
+	position:absolute;
+    top: 24vw;
+    left: 1vw;
+    height: 5vw;
+    width: 5vw;
+    transform: rotate(180deg);
+    z-index: 6;
+
+}
+
+.created{
+    position:absolute;
+	top:15vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+
+.createdsub{
+    position:absolute;
+	top:15vw;
+	left:62vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	color:black;
+	z-index:5;
+
+}
+
+.year{
+    position:absolute;
+	top:18vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+
+
+.yearsub{
+    position:absolute;
+	top:18vw;
+	left:55vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	color:black;
+	z-index:5;
+
+}
+
+.why{
+    position:absolute;
+	top:21vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+
+.whysub{
+	position:absolute;
+	top:21vw;
+	left:56vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	color:black;
+	z-index:5;
+}
+
+.butwhy{
+    position:absolute;
+	top:41vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+.butwhysub{
+	position:absolute;
+	top:41vw;
+	left:62vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	color:black;
+	z-index:5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.plush:hover {
+	animation: shake 0.5s infinite;
+}
+.boxgames:hover {
+	animation: shake 0.5s infinite;
+}
+.dolls:hover {
+	animation: shake 0.5s infinite;
+}
+.other:hover {
+	animation: shake 0.5s infinite;
+}
+
+
+
+
+
+
+
+.background{
+	position:absolute;
+	top:13vw;
+	left:7vw;
+	width: 40vw;
+	height: 45vw;
+	border-radius:1vw;
+    background:#E45E8F; 
+}
+
+@keyframes shake{
+    0% { transform:rotate(0deg); }
+    50% { transform:rotate(5deg); }
+	100%{ transform:rotate(-5deg); }
+}
+
+
+*/
