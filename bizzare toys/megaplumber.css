@@ -1,5 +1,5 @@
  body{
-    
+    display:flex;
     height: 100vh;
     font-family: Helvetica, sans-serif;
     margin-bottom:10vh;
