@@ -1,0 +1,880 @@
+body{
+
+    max-width:100%;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    margin-bottom:10vw;
+}
+
+img{ max-width:100%;
+
+}
+
+
+a{
+	color:inherit;
+	text-decoration:none;
+}
+
+.menu-container a,  .menu-container p {
+	cursor: default !important;
+
+}
+
+
+
+
+
+.title{
+    display:flex;
+	position:absolute;
+	top:-3vw;
+	left:7vw;
+	font-family: Helvetica, sans-serif;
+	font-size:60pt;
+	font-weight:bold;
+	
+
+}
+
+.plush{
+	position:absolute;
+	top:2vw;
+    left: 83.5vw;
+	transform:rotate(-22deg);
+	font-family: Helvetica, sans-serif;
+	font-size:18pt;
+	font-weight:bold;
+	
+
+}
+
+
+.dolls{
+	position: absolute;
+    top: 3.5vw;
+    left: 84vw;
+    transform: rotate(-22deg);
+    font-family: Helvetica, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: black;
+}
+
+.other{
+	position: absolute;
+    top: 5vw;
+    left: 84.6vw;
+    transform: rotate(-22deg);
+    font-family: Helvetica, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: black;
+}
+
+.action-figures{
+	position: absolute;
+    top: 6.2vw;
+    left: 86.7vw;
+    transform: rotate(-22deg);
+    font-family: Helvetica, sans-serif;
+    font-size: 19pt;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.plush:hover {
+	animation: shake 0.5s infinite;
+}
+.boxgames:hover {
+	animation: shake 0.5s infinite;
+}
+.dolls:hover {
+	animation: shake 0.5s infinite;
+}
+.other:hover {
+	animation: shake 0.5s infinite;
+}
+.action-figures:hover {
+	animation: shake 0.5s infinite;
+}
+
+
+
+@keyframes shake{
+    0% { transform:rotate(0deg); }
+    50% { transform:rotate(5deg); }
+	100%{ transform:rotate(-5deg); }
+}
+
+
+
+/*TEXT STARTS*/
+.text-container{
+
+	position: absolute;
+    top: 0vw;
+    left: 0vw;
+    width: 100vw;
+	
+}
+
+
+.created{
+    position:absolute;
+	top:15vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+
+.createdsub{
+    position:absolute;
+	top:15vw;
+	left:62vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	color:black;
+	z-index:5;
+
+}
+
+.year{
+    position:absolute;
+	top:18vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+
+
+.yearsub{
+    position:absolute;
+	top:18vw;
+	left:55vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	color:black;
+	z-index:5;
+
+}
+
+.why{
+    position:absolute;
+	top:21vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+
+.whysub{
+	position:absolute;
+	top:21vw;
+	left:56vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	color:black;
+	z-index:5;
+}
+
+.butwhy{
+    position:absolute;
+	top:30vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+.butwhysub{
+	position:absolute;
+	top:30vw;
+	left:62vw;
+	font-family: Helvetica, sans-serif;
+	font-size:24pt;
+	color:black;
+	z-index:5;
+}
+
+/*Image and Background*/
+
+.image-container{
+    position: absolute;
+    top: 3vw;
+    left: 0vw;
+    width: 40vw;
+    height: 45vw;
+
+	
+}
+
+.image{
+	
+    position: absolute;
+    top: 15vw;
+    left: 13vw;
+    width: 30vw;
+    z-index: 5;
+    /*transform:rotate(-42deg);*/
+    
+}
+
+.background{
+	position:absolute;
+	top:13vw;
+	left:7vw;
+	width: 40vw;
+	height: 45vw;
+	border-radius:1vw;
+    background:#55D6BE;
+}
+
+/* MEDIA QUERIES*/
+
+@media  screen and (max-width: 1218px){
+	.plush{
+
+	font-family: Helvetica, sans-serif;
+	font-size:12pt;
+	font-weight:bold;
+	
+
+}
+
+	.dolls{
+
+	font-family: Helvetica, sans-serif;
+	font-size:12pt;
+	font-weight:bold;
+	
+
+}
+
+	.other{
+
+	font-family: Helvetica, sans-serif;
+	font-size:12pt;
+	font-weight:bold;
+	
+
+}
+
+	.action-figures{
+
+	font-family: Helvetica, sans-serif;
+	font-size:12pt;
+	font-weight:bold;
+	
+
+}
+
+}
+
+@media  screen and (max-width: 738px){
+
+	.plush{
+
+	font-family: Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	/*color: red;*/
+	
+
+}
+
+	.dolls{
+
+	font-family: Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	
+
+}
+
+	.other{
+
+	font-family: Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	
+
+}
+
+	.action-figures{
+
+	font-family: Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	
+
+}
+
+}
+
+@media  screen and (max-width: 534px){
+
+	.plush{
+
+	font-family: Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+/*	color: red;*/
+	
+
+}
+
+	.dolls{
+
+	font-family: Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	
+
+}
+
+	.other{
+
+	font-family: Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	
+
+}
+
+	.action-figures{
+
+	font-family: Helvetica, sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	
+
+}
+
+}
+@media  screen and (max-width: 500px){
+
+	.plush{
+
+	font-family: Helvetica, sans-serif;
+	font-size:9pt;
+	font-weight:bold;
+	/*color: red;*/
+	
+
+}
+
+	.dolls{
+
+	font-family: Helvetica, sans-serif;
+	font-size:9pt;
+	font-weight:bold;
+	
+
+}
+
+	.other{
+
+	font-family: Helvetica, sans-serif;
+	font-size:9pt;
+	font-weight:bold;
+	
+
+}
+
+	.action-figures{
+
+	font-family: Helvetica, sans-serif;
+	font-size:9pt;
+	font-weight:bold;
+	
+
+}
+
+}
+
+
+@media  screen and (max-width: 400px){
+
+	.plush{
+
+	font-family: Helvetica, sans-serif;
+	font-size:6pt;
+	font-weight:bold;
+	/*color: red;*/
+	
+
+}
+
+	.dolls{
+
+	font-family: Helvetica, sans-serif;
+	font-size:6pt;
+	font-weight:bold;
+	
+
+}
+
+	.other{
+
+	font-family: Helvetica, sans-serif;
+	font-size:6pt;
+	font-weight:bold;
+	
+
+}
+
+	.action-figures{
+
+	font-family: Helvetica, sans-serif;
+	font-size:6pt;
+	font-weight:bold;
+	
+
+}
+
+}
+
+@media  screen and (max-width: 1368px){
+
+.created{
+    position:absolute;
+	top:15vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:20pt;
+	font-weight:bold;
+	/*color:red;*/
+	
+	z-index:5;
+
+}
+
+.createdsub{
+    position:absolute;
+	top:15vw;
+	left:62vw;
+	font-family: Helvetica, sans-serif;
+	font-size:20pt;
+	color:black;
+	z-index:5;
+
+}
+
+.year{
+    position:absolute;
+	top:20vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:20pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+
+
+.yearsub{
+    position:absolute;
+	top:20vw;
+	left:55vw;
+	font-family: Helvetica, sans-serif;
+	font-size:20pt;
+	color:black;
+	z-index:5;
+
+}
+
+.why{
+    position:absolute;
+	top:24vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:20pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+
+.whysub{
+	position:absolute;
+	top:24vw;
+	left:56vw;
+	font-family: Helvetica, sans-serif;
+	font-size:20pt;
+	color:black;
+	z-index:5;
+}
+
+.butwhy{
+    position:absolute;
+	top:44vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:20pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+.butwhysub{
+	position:absolute;
+	top:44vw;
+	left:62vw;
+	font-family: Helvetica, sans-serif;
+	font-size:20pt;
+	color:black;
+	z-index:5;
+}
+
+}
+
+
+@media  screen and (max-width: 1142px){
+
+.created{
+    position:absolute;
+	top:16vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:16pt;
+	font-weight:bold;
+	/*color:red;*/
+	
+	z-index:5;
+
+}
+
+.createdsub{
+    position:absolute;
+	top:16vw;
+	left:62vw;
+	font-family: Helvetica, sans-serif;
+	font-size:16pt;
+	color:black;
+	z-index:5;
+
+}
+
+.year{
+    position:absolute;
+	top:18vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:16pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+
+
+.yearsub{
+    position:absolute;
+	top:18vw;
+	left:55vw;
+	font-family: Helvetica, sans-serif;
+	font-size:16pt;
+	color:black;
+	z-index:5;
+
+}
+
+.why{
+    position:absolute;
+	top:21vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:16pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+
+.whysub{
+	position:absolute;
+	top:21vw;
+	left:56vw;
+	font-family: Helvetica, sans-serif;
+	font-size:16pt;
+	color:black;
+	z-index:5;
+}
+
+.butwhy{
+    position:absolute;
+	top:41vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:16pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+.butwhysub{
+	position:absolute;
+	top:41vw;
+	left:62vw;
+	font-family: Helvetica, sans-serif;
+	font-size:16pt;
+	color:black;
+	z-index:5;
+}
+
+}
+
+
+@media  screen and (max-width: 1026px){
+
+.created{
+    position:absolute;
+	top:16vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	font-weight:bold;
+	/*color:red;*/
+	
+	z-index:5;
+
+}
+
+.createdsub{
+    position:absolute;
+	top:18vw;
+	left:62vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	color:black;
+	z-index:5;
+
+}
+
+.year{
+    position:absolute;
+	top:18vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+
+
+.yearsub{
+    position:absolute;
+	top:18vw;
+	left:55vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	color:black;
+	z-index:5;
+
+}
+
+.why{
+    position:absolute;
+	top:21vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+
+.whysub{
+	position:absolute;
+	top:21vw;
+	left:56vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	color:black;
+	z-index:5;
+}
+
+.butwhy{
+    position:absolute;
+	top:41vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+.butwhysub{
+	position:absolute;
+	top:41vw;
+	left:62vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	color:black;
+	z-index:5;
+}
+
+}
+
+@media  screen and (max-width: 1026px){
+
+	.title{
+		    display:flex;
+			position:absolute;
+			top:-3vw;
+			left:7vw;
+			font-family: Helvetica, sans-serif;
+			font-size:60pt;
+			font-weight:bold;
+			margin-bottom:60vw;
+
+
+	}
+}
+
+
+
+@media  screen and (max-width: 932px){
+
+
+
+.text-container{
+
+	position: absolute;
+    top: 100vw;
+    left: -100vw;
+    width: 100vw;
+	
+}
+
+
+
+.created{
+    position:absolute;
+	top:16vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	font-weight:bold;
+	/*color:red;*/
+	
+	z-index:5;
+
+}
+
+.createdsub{
+    position:absolute;
+	top:18vw;
+	left:62vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	color:black;
+	z-index:5;
+
+}
+
+.year{
+    position:absolute;
+	top:18vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+
+
+.yearsub{
+    position:absolute;
+	top:18vw;
+	left:55vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	color:black;
+	z-index:5;
+
+}
+
+.why{
+    position:absolute;
+	top:21vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+
+.whysub{
+	position:absolute;
+	top:21vw;
+	left:56vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	color:black;
+	z-index:5;
+}
+
+.butwhy{
+    position:absolute;
+	top:41vw;
+	left:49vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	font-weight:bold;
+	color:black;
+	
+	z-index:5;
+
+}
+.butwhysub{
+	position:absolute;
+	top:41vw;
+	left:62vw;
+	font-family: Helvetica, sans-serif;
+	font-size:13pt;
+	color:black;
+	z-index:5;
+}
+
+}
