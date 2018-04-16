@@ -1,0 +1,407 @@
+body{
+    /*background:red;*/
+   margin:0;
+   padding:0;
+   width:100vw;
+   height:100vw;
+   max-width:100%;
+
+}
+
+img{ max-width:100vw; }
+
+
+.container0{
+    position:absolute;
+    top:0vw;
+    left:5vw;
+    font-size:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    background:blue;
+    color:red;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+.logo1{
+    position:absolute;
+    top:1vw;
+    left:7vw;
+}
+
+.logo2{
+    position:absolute;
+    top:1vw;
+    left:20vw;
+}
+
+
+
+
+.container1{
+    position:absolute;
+    font-size:200%;
+     color:blue;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+.container2 {
+    position:absolute;
+    right: 5vw;
+    top: 5vw;
+     color:blue;
+    height:10%;
+    width:100vh;
+    font-size: 200%;
+    font-family: 'Permanent Marker', cursive;
+    /*transform-origin: 100% 100%;
+    -webkit-transform: rotate(90deg);*/
+}
+
+.container3{
+    position:absolute;
+    font-size:200%;
+     color:blue;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+.container4{
+    position:absolute;
+    font-size:200%;
+    color:blue;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+.marquee {
+    /*width: 450px;*/
+   /* margin: 0 auto;*/
+   position:fixed;
+    top: 20vw;
+    left: 0vw;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    background:red;
+    z-index:200;
+    /*border: 1px green solid;*/
+}
+
+.marquee_2 {
+    /*width: 450px;*/
+   /* margin: 0 auto;*/
+   position:fixed;
+   top:25vw;
+   left:0vw;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    background:red;
+    z-index:200;
+
+    /*border: 1px green solid;*/
+}
+
+.marquee_3 {
+    /*width: 450px;*/
+   /* margin: 0 auto;*/
+   position:fixed;
+   top:30vw;
+   left:0vw;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    background:red;
+    z-index:200;
+
+    /*border: 1px green solid;*/
+}
+
+.marquee_4 {
+   /*width: 450px;*/
+   /* margin: 0 auto;*/
+   position:fixed;
+   top:35vw;
+   left:0vw;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    background:red;
+    z-index:200;
+
+    /*border: 1px green solid;*/
+}
+
+
+
+.marquee span {
+    display: inline-block;
+    /*padding-left: 100%;*/
+    text-indent: 0;
+    border: 1px red solid;
+    animation: marquee 20s linear infinite;
+}
+.marquee span:hover {
+    animation-play-state: paused
+}
+
+
+/* Make it move */
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+.marquee_2 span {
+    display: inline-block;
+   /* padding-left: 10%;*/
+    text-indent: 0;
+    border: 1px red solid;
+    animation: marquee 15s linear infinite;
+}
+.marquee_2 span:hover {
+    animation-play-state: paused
+}
+
+
+/* Make it move */
+@keyframes marquee_2 {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+.marquee_3 span {
+    display: inline-block;
+   /* padding-left: 10%;*/
+    text-indent: 0;
+    border: 1px red solid;
+    animation: marquee 15s linear infinite;
+}
+.marquee_3 span:hover {
+    animation-play-state: paused
+}
+
+
+/* Make it move */
+@keyframes marquee_3 {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+.marquee_4 span {
+    display: inline-block;
+   /* padding-left: 10%;*/
+    text-indent: 0;
+    border: 1px red solid;
+    animation: marquee 15s linear infinite;
+}
+.marquee_4 span:hover {
+    animation-play-state: paused
+}
+
+
+/* Make it move */
+@keyframes marquee_4 {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+
+
+.logo1 span {
+    display: inline-block;
+   /* padding-left: 10%;*/
+    text-indent: 0;
+    border: 1px red solid;
+    animation: marquee 15s linear infinite;
+}
+.logo1 span:hover {
+    animation-play-state: paused
+}
+
+
+/* Make it move */
+@keyframes logo1 {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+.logo2 span {
+    display: inline-block;
+   /* padding-left: 10%;*/
+    text-indent: 0;
+    border: 1px red solid;
+    animation: marquee 15s linear infinite;
+}
+.logo2 span:hover {
+    animation-play-state: paused
+}
+
+
+/* Make it move */
+@keyframes logo2 {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+.image1:hover {
+    filter:none;
+
+}
+.image2:hover {
+    filter:none;
+
+}
+.image3:hover {
+    filter:none;
+
+}
+.image4:hover {
+    filter:none;
+
+}
+.image5:hover {
+    filter:none;
+
+}
+.image6:hover {
+    filter:none;
+
+}
+.image7:hover {
+    filter:none;
+
+}
+.image8:hover {
+    filter:none;
+
+}
+.image9:hover {
+    filter:none;
+
+}
+
+
+.image1{
+    
+    position:absolute;
+    top:2vw;
+    left:4vw;
+    z-index:1;
+    width:40vw;
+    filter:blur(5px);
+   
+}
+
+.image2{
+    
+    position:absolute;
+    top:12vw;
+    left:32vw;
+    z-index:1;
+    width:40vw;
+    filter:blur(5px);
+   
+}
+
+
+.image3{
+    
+    position:absolute;
+    top:26vw;
+    left:4vw;
+    z-index:1;
+    width:40vw;
+    filter:blur(5px);
+   
+}
+
+.image4{
+    
+    position:absolute;
+    top:56vw;
+    left:14vw;
+    z-index:1;
+    width:40vw;
+    filter:blur(5px);
+   
+}
+
+.image5{
+    
+    position:absolute;
+    top:56vw;
+    left:54vw;
+    z-index:1;
+    width:40vw;
+    filter:blur(5px);
+   
+}
+
+
+.image6{
+    
+    position:absolute;
+    top:76vw;
+    left:34vw;
+    z-index:1;
+    width:40vw;
+    filter:blur(5px);
+   
+}
+
+.image7{
+    
+    position:absolute;
+    top:106vw;
+    left:0vw;
+    z-index:1;
+    width:40vw;
+    filter:blur(5px);
+   
+}
+
+
+.image8{
+    
+    position:absolute;
+    top:100vw;
+    left:60vw;
+    z-index:1;
+    width:40vw;
+    filter:blur(5px);
+   
+}
+
+.image9{
+    
+    position:absolute;
+    top:80vw;
+    left:-11vw;
+    z-index:1;
+    width:40vw;
+    filter:blur(5px);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen only and max-width:50
