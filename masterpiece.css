@@ -13,28 +13,37 @@ img{ max-width:100vw; }
 
 .container0{
     position:absolute;
-    top:0vw;
-    left:5vw;
-    font-size:100%;
-    white-space: nowrap;
-    overflow: hidden;
-    box-sizing: border-box;
-    background:blue;
-    color:red;
+    right: 300vw;
+    top: 5vw;
+    color:blue;
+    height:10%;
+    width:100vh;
+    font-size: 100%;
     font-family: 'Permanent Marker', cursive;
+   
     
 }
 
 .logo1{
-    position:absolute;
-    top:1vw;
-    left:7vw;
+    position:fixed;
+    top: 5vw;
+    left: 83vw;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background:red;
+    z-index:200;
+    transform:rotate(45deg);
 }
 
 .logo2{
-    position:absolute;
-    top:1vw;
-    left:20vw;
+   position:fixed;
+    top: 5vw;
+    left: 80vw;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background:red;
+    z-index:200;
+    transform:rotate(-35deg);
 }
 
 
@@ -215,44 +224,44 @@ img{ max-width:100vw; }
 
 
 
-
-.logo1 span {
+/*
+.container0 span {
     display: inline-block;
    /* padding-left: 10%;*/
-    text-indent: 0;
+    /*text-indent: 0;
     border: 1px red solid;
     animation: marquee 15s linear infinite;
 }
-.logo1 span:hover {
+.container0 span:hover {
     animation-play-state: paused
-}
-
+}*/
+*/
 
 /* Make it move */
-@keyframes logo1 {
+/*@keyframes container0 {
     0%   { transform: translate(0, 0); }
     100% { transform: translate(-100%, 0); }
 }
-
-.logo2 span {
+*/
+/*.logo2 span {
     display: inline-block;
    /* padding-left: 10%;*/
-    text-indent: 0;
+   /* text-indent: 0;
     border: 1px red solid;
     animation: marquee 15s linear infinite;
 }
 .logo2 span:hover {
     animation-play-state: paused
 }
-
+*/
 
 /* Make it move */
-@keyframes logo2 {
+/*@keyframes logo2 {
     0%   { transform: translate(0, 0); }
     100% { transform: translate(-100%, 0); }
 }
 
-
+*/
 .image1:hover {
     filter:none;
 
