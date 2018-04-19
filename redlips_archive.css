@@ -87,6 +87,22 @@ font-family: Helvetica, sans-serif;
     z-index:600
 
 }
+
+.video{
+   position:absolute;
+   top:200vw;
+   left:3vw;
+
+}
+
+
+
+
+
+
+
+
+
 img{
 	max-width:100%;
 }
