@@ -1,9 +1,16 @@
+
+body{
+	min-height:130%;
+	overflow:hidden;
+}
+
+
 #myVideo {
-    position: fixed;
-    margin-right: 0;
-    margin-bottom: 0;
-    min-width: 100vw; 
-    min-height: 100vh;
+    position: absolute;
+    margin-right: -23vw;
+    margin-bottom: -23vw;
+    min-width: 120%; 
+    min-height: 150%;
 }
 
 
@@ -11,9 +18,92 @@
 
 .title1
 { position:absolute;
-	top:400px;
-	left:200px;
-	font-family: 'Roboto', sans-serif;
-	font-size:20px;
-	background-color:#8900FF;
+	top:-2vw;
+	left:5vw;
+	font-family: 'Archivo Black', sans-serif;
+	font-size:120pt;
+	font-weight:bold;
+	color:white;
 	z-index:2}
+
+
+
+.bar {
+	position: absolute;
+    top: 53vw;
+    left: 5vw;
+    width: 90vw;
+    height: 0.5vw;
+    background: white;
+    z-index: 700;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+.click
+{ position:absolute;
+	top:54vw;
+	left:5vw;
+	font-family: 'Archivo Black', sans-serif;
+	font-size:20pt;
+	/*font-weight:bold;*/
+	color:white;
+	z-index:2}
+
+.click:hover{
+	
+	animation: glitchy 0.3s ease infinite reverse;
+
+
+		}
+
+
+
+
+.obsessions
+{ position:absolute;
+	top:54vw;
+	left:27vw;
+	font-family: 'Archivo Black', sans-serif;
+	font-size:20pt;
+	/*font-weight:bold;*/
+	color:white;
+	z-index:2}
+
+
+.obsessions:hover{
+	
+	animation: glitchy 0.3s ease infinite reverse;
+
+
+		}
+
+
+.masterpiece
+{ position:absolute;
+	top:54vw;
+	left:50vw;
+	font-family: 'Archivo Black', sans-serif;
+	font-size:20pt;
+	/*font-weight:bold;*/
+	color:white;
+	z-index:2}
+
+
+.masterpiece:hover{
+	
+	animation: glitchy 0.3s ease infinite reverse;
+
+
+		}
+
+
+	@keyframes glitchy {
+    0%   {transform: translate(-2px, 2px);}
+    25%  {transform: translate(-2px, -2px);}
+    50%  {transform: translate(2px, 2px);}
+    75%  {transform: translate(2px, -2px);}
+    100%  {transform: translate(-2px, 2px);}
+}
