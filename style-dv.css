@@ -1,0 +1,193 @@
+body{
+	max-width:100%;
+	max-height:100%;
+	background-color:black;
+}
+
+/* structure */
+
+.vortex{
+	position:relative;
+	align-items: center;
+    padding:100px 30px;
+	margin: auto;
+}
+
+/* circles */
+
+.circle1{
+    position: absolute;
+    left: 15vw;
+    top: 1vw;
+    width: 70vw;
+    height: 55vw;
+    /*background: linear-gradient(to right,#FF5D00 ,#FF0038);*/
+    background:white;
+    border-radius: 70vw / 55vw;
+}
+.circle2{
+    position: absolute;
+    left: 17.5vw;
+    top: 3vw;
+    width: 65vw;
+    height: 50vw;
+    /*background: linear-gradient(to left,#C724B1 ,#542C5D);*/
+    background:black;
+    border-radius: 65vw / 50vw;
+}
+
+.circle3{
+    position: absolute;
+    left: 20vw;
+    top: 5.5vw;
+    width: 60vw;
+    height: 45vw;
+    /* background: linear-gradient(to left,#C724B1 ,#542C5D); */
+    background: white;
+    border-radius: 60vw / 45vw;
+}
+
+.circle4{
+    position: absolute;
+    left: 22.5vw;
+    top: 8vw;
+    width: 55vw;
+    height: 40vw;
+    /* background: linear-gradient(to left,#C724B1 ,#542C5D); */
+    background: black;
+    border-radius: 55vw / 40vw;
+}
+
+.circle5{
+    position: absolute;
+    left: 25vw;
+    top: 10.5vw;
+    width: 50vw;
+    height: 35vw;
+    /* background: linear-gradient(to left,#C724B1 ,#542C5D); */
+    background: white;
+    border-radius: 50vw / 35vw;
+}
+
+.circle6{
+
+      position: absolute;
+    left: 27.5vw;
+    top: 13vw;
+    width: 45vw;
+    height: 30vw;
+    /* background: linear-gradient(to left,#C724B1 ,#542C5D); */
+    background: black;
+    border-radius: 45vw / 30vw;
+}
+
+.circle7{
+
+    position: absolute;
+    left: 30vw;
+    top: 15vw;
+    width: 40vw;
+    height: 25vw;
+    /* background: linear-gradient(to left,#C724B1 ,#542C5D); */
+    background: white;
+    border-radius: 40vw / 25vw;
+}
+
+.circle8{
+
+    position: absolute;
+    left: 32.4vw;
+    top: 17.5vw;
+    width: 35vw;
+    height: 20vw;
+    /* background: linear-gradient(to left,#C724B1 ,#542C5D); */
+    background: black;
+    border-radius: 35vw / 20vw;
+}
+
+.circle9{
+
+    position: absolute;
+    left: 32.4vw;
+    top: 17.5vw;
+    width: 35vw;
+    height: 20vw;
+    /* background: linear-gradient(to left,#C724B1 ,#542C5D); */
+    background: black;
+    border-radius: 35vw / 20vw;
+}
+
+.circle10{
+
+    position: absolute;
+    left: 35vw;
+    top: 19vw;
+    width: 30vw;
+    height: 17vw;
+    /* background: linear-gradient(to left,#C724B1 ,#542C5D); */
+    background: white;
+    border-radius: 35vw / 20vw;
+}
+
+.circle11{
+
+        position: absolute;
+    left: 37.5vw;
+    top: 20vw;
+    width: 25vw;
+    height: 15vw;
+    background: linear-gradient(to left,#C724B1 ,#542C5D);
+    background: black;
+    border-radius: 25vw / 15vw;
+}
+
+.circle12{
+
+    position: absolute;
+    left: 39vw;
+    top: 21.5vw;
+    width: 22vw;
+    height: 11.5vw;
+    background: linear-gradient(to left,#C724B1 ,#542C5D);
+    background: white;
+    border-radius: 22vw / 11.5vw;
+}
+
+.circle13{
+
+    position: absolute;
+    left: 42.5vw;
+    top: 23vw;
+    width: 15vw;
+    height: 8vw;
+    background: linear-gradient(to left,#C724B1 ,#542C5D);
+    background: black;
+    border-radius: 15vw / 8vw;
+}
+
+
+.circle14{
+
+    position: absolute;
+    left: 45vw;
+    top: 24vw;
+    width: 10vw;
+    height: 6vw;
+    background: linear-gradient(to left,#C724B1 ,#542C5D);
+    background: white;
+    border-radius: 10vw / 6vw;
+}
+
+.circle15{
+
+    position: absolute;
+    left: 46vw;
+    top: 24.2vw;
+    width: 8vw;
+    height: 4vw;
+    background: linear-gradient(to left,#C724B1 ,#542C5D);
+    background: black;
+    border-radius: 8vw / 4vw;
+/*    transform: rotate(20deg);
+*/}
+
