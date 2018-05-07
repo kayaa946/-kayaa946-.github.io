@@ -19,20 +19,21 @@ $(function() {
 
 });
 
-var date = new Date();
-function updateTime() {
-date = new Date();
+// var date = new Date();
 
-var hours = date.hours();
+// function updateTime() {
+// date = new Date();
 
-var hoursRatio = 24/360;
-  var hoursDegrees = hours / hoursRatio;
+// var hours = date.hours();
+
+// var hoursRatio = 24/360;
+// var hoursDegrees = hours / hoursRatio;
   
-  $('.circle12').css('transform', 'rotate(' + hoursDegrees + 'deg)');
-}
+//   $('.circle12').css('transform', 'rotate(' + hoursDegrees + 'deg)');
+// }
 
-$(function() {
-	updateTime();
-	setInterval(updateTime, 50);
+// $(function() {
+// 	updateTime();
+// 	setInterval(updateTime, 50);
 
-});
+// });
