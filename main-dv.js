@@ -5,6 +5,11 @@ function updateTime() {
    // Ratio is: unit of time / 360 degrees//
   
   // Seconds
+  var milliseconds = date.getMilliseconds();
+  var millisecondsRatio = 1000/360;
+  var millisecondsDegrees = milliseconds / millisecondsRatio;
+
+  // Seconds
   var seconds = date.getSeconds();
   var secondsRatio = 60/360;
   var secondsDegrees = seconds / secondsRatio;
@@ -25,15 +30,22 @@ function updateTime() {
   var dayDegrees = day / dayRatio;
 
   // // Months
-   var month = month.getDay();
+   var month = date.getMonth();
    var monthRatio = 12/360;
    var monthDegrees = month /monthRatio;
 
- $('.circle15').css('transform', 'rotate(' + secondsDegrees + 'deg)');
- $('.circle12').css('transform', 'rotate(' + minutesDegrees + 'deg)');
- $('.circle9').css('transform', 'rotate(' + hoursDegrees + 'deg)');
- $('.circle7').css('transform', 'rotate(' + dayDegrees + 'deg)');
- $('.circle5').css('transform', 'rotate(' + monthDegrees + 'deg)');
+   // // Year
+   var year = date.getYear();
+   var yearRatio = 12/360;
+   var yearDegrees = year /yearRatio;
+
+ $('.circle16').css('transform', 'rotate(' + millisecondsDegrees + 'deg)');
+ $('.circle14').css('transform', 'rotate(' + millisecondsDegrees + 'deg)');
+ $('.circle2').css('transform', 'rotate(' + secondsDegrees + 'deg)');
+ $('.circle5').css('transform', 'rotate(' + minutesDegrees + 'deg)');
+ $('.circle12').css('transform', 'rotate(' + hoursDegrees + 'deg)');
+ $('.circle10').css('transform', 'rotate(' + dayDegrees + 'deg)');
+ $('.circle13').css('transform', 'rotate(' + monthDegrees + 'deg)');
 }
 
 
@@ -44,7 +56,8 @@ function updateTime() {
 $(function() {
 	updateTime();
 	setInterval(updateTime, 50);
-
-
 });
+
+
+
 

@@ -2,6 +2,7 @@ body{
 	max-width:100%;
 	max-height:100%;
 	background-color:black;
+	overflow:hidden;
 }
 
 /* structure */
@@ -11,6 +12,7 @@ body{
 	align-items: center;
     padding:100px 30px;
 	margin: auto;
+
 }
 
 /* circles */
@@ -24,6 +26,7 @@ body{
     /*background: linear-gradient(to right,#FF5D00 ,#FF0038);*/
     background:white;
     border-radius: 70vw / 55vw;
+        z-index:2;
 }
 .circle2{
     position: absolute;
@@ -34,6 +37,7 @@ body{
     /*background: linear-gradient(to left,#C724B1 ,#542C5D);*/
     background:black;
     border-radius: 65vw / 50vw;
+        z-index:2;
 }
 
 .circle3{
@@ -45,6 +49,7 @@ body{
     /* background: linear-gradient(to left,#C724B1 ,#542C5D); */
     background: white;
     border-radius: 60vw / 45vw;
+        z-index:2;
 }
 
 .circle4{
@@ -56,6 +61,7 @@ body{
     /* background: linear-gradient(to left,#C724B1 ,#542C5D);*/ 
     background: black;
     border-radius: 55vw / 40vw;
+        z-index:2;
 }
 
 .circle5{
@@ -67,6 +73,7 @@ body{
  /*    background: linear-gradient(to right,#C724B1 ,#542C5D); */
     background: white;
     border-radius: 50vw / 35vw;
+        z-index:2;
 }
 
 .circle6{
@@ -79,6 +86,7 @@ body{
     /* background: linear-gradient(to left,#C724B1 ,#542C5D); */
     background: black;
     border-radius: 45vw / 30vw;
+        z-index:2;
 }
 
 .circle7{
@@ -91,6 +99,7 @@ body{
     /* background: linear-gradient(to left,#C724B1 ,#542C5D); */
     background: white;
     border-radius: 40vw / 25vw;
+        z-index:2;
 }
 
 .circle8{
@@ -103,6 +112,7 @@ body{
     /* background: linear-gradient(to left,#C724B1 ,#542C5D); */
     background: black;
     border-radius: 35vw / 20vw;
+        z-index:2;
 }
 
 .circle9{
@@ -115,6 +125,7 @@ body{
     /* background: linear-gradient(to left,#C724B1 ,#542C5D); */
     background: black;
     border-radius: 35vw / 20vw;
+        z-index:2;
 }
 
 .circle10{
@@ -127,6 +138,7 @@ body{
     /* background: linear-gradient(to left,#C724B1 ,#542C5D); */
     background: white;
     border-radius: 35vw / 20vw;
+        z-index:2;
 }
 
 .circle11{
@@ -139,6 +151,7 @@ body{
     background: linear-gradient(to left,#C724B1 ,#542C5D);
     background: black;
     border-radius: 25vw / 15vw;
+        z-index:2;
 }
 
 .circle12{
@@ -151,6 +164,7 @@ body{
     background: linear-gradient(to left,#C724B1 ,#542C5D);
     background: white;
     border-radius: 22vw / 11.5vw;
+        z-index:2;
 }
 
 .circle13{
@@ -163,6 +177,7 @@ body{
     background: linear-gradient(to left,#C724B1 ,#542C5D);
     background: black;
     border-radius: 15vw / 8vw;
+        z-index:2;
 }
 
 
@@ -176,6 +191,7 @@ body{
     background: linear-gradient(to left,#C724B1 ,#542C5D);
     background: white;
     border-radius: 10vw / 6vw;
+        z-index:2;
 }
 
 .circle15{
@@ -188,4 +204,36 @@ body{
     background: linear-gradient(to left,#C724B1 ,#542C5D);
     background: black;
     border-radius: 8vw / 4vw;
+    z-index:2;
 }
+
+/*Larger outer circles*/
+
+.circle16{
+
+    position: absolute;
+    left:13vw;
+    top: -1vw;
+    width: 75vw;
+    height: 60vw;
+    /*background: linear-gradient(to right,#FF5D00 ,#FF0038);*/
+    background:black;
+    z-index:1;
+    border-radius: 80vw / 65vw;
+}
+
+.circle17{
+
+    position: absolute;
+    left: 9vw;
+    top: -6vw;
+    width: 82vw;
+    height: 72vw;
+    /*background: linear-gradient(to right,#FF5D00 ,#FF0038);*/
+    background:white;
+    z-index:0;
+    border-radius: 82vw / 72vw;
+}
+
+
+
