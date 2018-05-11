@@ -1,6 +1,7 @@
 
 body{
-	min-height:130%;
+    max-width: :130%;
+	max-height:130%;
 	overflow:hidden;
 }
 

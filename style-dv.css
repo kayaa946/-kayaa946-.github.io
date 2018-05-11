@@ -262,10 +262,32 @@ font-family: 'Open Sans', sans-serif;
 font-weight:bold
 }
 
-/*.date-button:hover{
-border-style:solid;
-border-color:#A6CFD5;
-}*/
+a{
+position:relative;
+top:26vw;
+left:2vw;
+color:white;
+font-size:14pt;
+font-weight:bold;
+font-family: 'Open Sans', sans-serif;
+text-decoration:none;
+
+
+}
+
+
+a:hover {
+position:relative;
+top:26vw;
+left:2vw;
+color:#A6CFD5;
+font-size:14pt;
+font-weight:bold;
+font-family: 'Open Sans', sans-serif;
+text-decoration:none;
+
+
+}
 
 
 
